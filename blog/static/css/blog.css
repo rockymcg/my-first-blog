@@ -1,6 +1,7 @@
 h1 a {
 	color: #FCA205;
-	font-family: 'Lobster';
+	font-family: 'Scada', sans-serif;
+	font-weight: 900;
 }
 
 body {
@@ -23,8 +24,8 @@ body {
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Anonymous Pro', ;
-    font-weight: 700;
+    font-family: 'Scada', sans-serif;
+    font-weight: 900;
 }
 
 .date {

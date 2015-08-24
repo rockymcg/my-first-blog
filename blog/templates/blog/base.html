@@ -5,7 +5,7 @@
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 		<link rel="stylesheet" href="{% static "css/blog.css" %}">
-		<link href='https://fonts.googleapis.com/css?family=Anonymous+Pro:700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Scada:700' rel='stylesheet' type='text/css'>
 	</head>
 	
 	<body>
@@ -13,7 +13,7 @@
 	{% if user.is_authenticated %}
 		<a href="{% url "post_new" %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
 	{% endif %}
-		<h1><a href="{% url "post_list" %}">@rockymcg<a></h1>
+		<h1><a href="{% url "post_list" %}">@rockymcg_<a></h1>
 	</div>
 	
 	<div class="content container">
