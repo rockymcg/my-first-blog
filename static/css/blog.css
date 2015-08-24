@@ -4,10 +4,11 @@ h1 a {
 }
 
 body {
+	padding-left: 15px;
 }
 
 .page-header {
-    background-color: #669999;
+    background-color: #ff9400;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
@@ -16,6 +17,7 @@ body {
     color: #ffffff;
     font-size: 36pt;
     text-decoration: none;
+    width: 100%;
 }
 
 .content {
@@ -23,8 +25,7 @@ body {
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Anonymous Pro', ;
-    font-weight: 700;
+    font-family: 'Lobster', cursive;
 }
 
 .date {
